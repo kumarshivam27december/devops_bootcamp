@@ -1,0 +1,16 @@
+
+if we don't want to commit and also not want to loose the content 
+then we can do 
+
+git add .
+git stash
+
+
+and whenever we wanted it back we can use
+git stash pop
+
+
+and we want to clear it that is permanently delete it we can use
+git stash clear
+
+
