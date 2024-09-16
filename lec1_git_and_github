@@ -14,3 +14,28 @@ and we want to clear it that is permanently delete it we can use
 git stash clear
 
 
+git stash list  -> to list all stashed changesets.
+
+git stash drop  -> this command discard the most recently changeset.
+
+
+git stash pop  -> this command restore the most recently stashed file
+
+git stash save -> this command temporarily stores all the modified tracked file
+
+
+
+git show -> this command shows the metadata and content changes of the specified commit
+
+
+git reset -hard [commit]  -> this command undoes all the commits after the specified commit and preserves the changes locally
+
+
+
+
+
+git diff -> this command show the file difference which are not yet staged
+
+
+
+
