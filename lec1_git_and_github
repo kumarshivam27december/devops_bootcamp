@@ -14,28 +14,27 @@ and we want to clear it that is permanently delete it we can use
 git stash clear
 
 
-git stash list  -> to list all stashed changesets.
-
-git stash drop  -> this command discard the most recently changeset.
-
-
-git stash pop  -> this command restore the most recently stashed file
-
-git stash save -> this command temporarily stores all the modified tracked file
+if we want to undo the changes or get back to the particular format before
+changing it then we can use
+git log
+and then how much we want to delete below that one we can copy the log id and
+then we can run the command
+git reset <log_id>
 
 
-
-git show -> this command shows the metadata and content changes of the specified commit
-
-
-git reset -hard [commit]  -> this command undoes all the commits after the specified commit and preserves the changes locally
+if we want to remove it from the stage without commiting it then we can use
+git restore --staged file.txt
 
 
-
-
-
-git diff -> this command show the file difference which are not yet staged
+for making a seperate branch to the code base so that code base doesnot fail
+we can use
+git branch new_feature
+git checkout new_feature
+this will change the HEAD pointer to the new feature
+and will commit it here before checking it
+this is acyclic graph data structure
 
 
 
+git merge feature //to merge the code so that all can see the commit
 
