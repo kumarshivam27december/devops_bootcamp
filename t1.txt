@@ -1,2 +1,4 @@
 this is text 1 for conflict check
 
+this is 2nd commit 
+
